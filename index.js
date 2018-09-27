@@ -15,3 +15,8 @@ function deleteFromDriverByKey(driver, key) {
   delete ndriver[key];
   return ndriver;
 }
+
+function destructivelyDeleteFromDriverByKey(driver, key){
+  delete driver[key];
+  return driver;
+}
